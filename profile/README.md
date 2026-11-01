@@ -19,7 +19,3 @@ isn't sure, it asks.
 
 **Secnd** is a reflection of you. It connects to your work tools, learns how you decide, acts when
 it's sure and asks when it isn't. It's in development.
-
-## Team
-
-[Rishit Sharma](https://github.com/Rish-it) and [Tejas Agrahari](https://github.com/TjDevil07)
