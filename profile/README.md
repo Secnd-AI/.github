@@ -2,44 +2,51 @@
 
 # Secnd
 
-We're a research lab building models that decide or ask for help.
+**We want to be the best decision model lab in the world, and to build products people trust to act
+for them.**
 
-Most AI models are built to write. A decision model is built to choose: give it a situation and a
-list of options, and it returns one option with a probability.
+So much of work is small decisions: approve or wait, reply or ignore, escalate or close. AI can write
+almost anything now, but you still can't walk away and let it decide. Text models are built to
+generate. Decisions need something else: speed, low cost, and knowing when not to answer.
 
-Accuracy can't tell you when software is safe to act without a person. Proof can. So the number we
-care about is how many decisions a model can handle alone, with proof, per dollar.
+So we train models built only for decisions. Give one a situation and a list of options, and it
+returns one option with a probability.
 
-## Ren
+## The race we're running
 
-Ren is our first model. It has 396M parameters and was trained once, on 422,906 rows, for about $129
-of compute. It can work from option names alone and gets better with a few examples.
+**The most decisions handled alone, with proof, per dollar.**
 
-| Test | No examples | 8 examples | Answered alone at our 99% gate |
-| --- | ---: | ---: | --- |
-| MTOP | 76.0% | 92.4% | 21.0%, with 1 error in 923 answers |
-| BANKING77 | 69.0% | 89.9% | 0% |
+Accuracy tells you a model is often right. Proof tells you when you can stop checking. That's what
+lets software act without a person, and it's what we're here to get better at than anyone.
 
-Ren answered nothing alone on BANKING77 because it couldn't prove it was safe. Closing that gap is
-the research problem we're working on now.
+## What we're building
 
-Ren isn't the most accurate model out there. Jev scores 79.7% on BANKING77 with no examples. The gate
-results cover one seed with full history, and no real business has run Ren yet.
+**Ren is our model family.** Ren v1.1.0, our first, has 396M parameters and its weights are public. It
+can work from option names alone and gets better with a few examples.
 
-- [Weights on Hugging Face](https://huggingface.co/Secnd-AI/ren/tree/v1.1.0), under CC BY-SA 4.0
-- [Code](https://github.com/Secnd-AI/ren)
-- [All results, with comparisons and limits](https://github.com/Secnd-AI/ren/tree/main/docs/results)
+**Secnd is our first product, a reflection of you.** It connects to your repo, PRs, email, Slack and
+Notion, and learns how you decide. When it's sure, it acts for you. When it isn't, it asks. Your work
+keeps moving while you sleep. It will adapt to each person, team, company and industry, and with
+consent, real decisions from Secnd will train the next Ren.
 
-## Secnd
+More products will follow, and some of them may fail. The lab keeps going as long as the models keep
+getting better.
 
-Secnd is our first product, and we haven't built it yet. It will connect to the tools where work
-happens, starting with GitHub, then Slack, email and Notion. It will learn how you decide. When it's
-sure, it acts for you. When it isn't, it asks.
+## Where we are
 
-With consent, real decisions from Secnd will train the next Ren.
+We trained Ren for about $129 of compute. It scored 79.7% on the Typed-decisions mixed test, tied
+with OpenDecider-nano. At our 99% gate it answered 21.0% of MTOP alone, with 1 error in 923 answers.
+On BANKING77 it answered nothing alone, and that's the next problem we're solving.
 
-## Next
+Secnd is in development, and no real business has run Ren yet.
 
-1. Build the GitHub connector.
-2. Test Ren against Jev on real decisions.
-3. Close the BANKING77 gap, so Ren can prove more of its answers are safe.
+[Weights](https://huggingface.co/Secnd-AI/ren/tree/v1.1.0) ·
+[Code](https://github.com/Secnd-AI/ren) ·
+[All results, with comparisons and limits](https://github.com/Secnd-AI/ren/tree/main/docs/results)
+
+## Who we are
+
+**[Rishit Sharma](https://github.com/Rish-it)**, CEO. Founding engineering team at Onlook (YC W25) and
+an early tester of Jev.
+
+**[Tejas Agrahari](https://github.com/TjDevil07)**, CTO. Machine learning engineer.
