@@ -1,0 +1,19 @@
+profile/README.md
+  s_027741243286d5::t_bd87498c946b2d 5-6,8-10,12-13,15,17,19-20,22,24-25,27-30,32-33,35,37-39,41,43-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "954cd03dec94dc6c1d8cc529f0cc72b6eebdd0b4",
+  "prompts": {},
+  "sessions": {
+    "s_027741243286d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "893b4047-aa43-4e83-9a50-1ba8e35b039b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Rishit Sharma <rishitsharmar89@gmail.com>"
+    }
+  }
+}
