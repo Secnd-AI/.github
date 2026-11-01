@@ -1,0 +1,19 @@
+profile/README.md
+  s_027741243286d5::t_55c13c34115121 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ee95523d2af9c5b15966810799ba31c449f07ada",
+  "prompts": {},
+  "sessions": {
+    "s_027741243286d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "893b4047-aa43-4e83-9a50-1ba8e35b039b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Rishit Sharma <rishitsharmar89@gmail.com>"
+    }
+  }
+}
