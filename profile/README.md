@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Secnd-AI/.github/main/profile/banner-dark.png">
+  <img alt="Halftone flowers" src="https://raw.githubusercontent.com/Secnd-AI/.github/main/profile/banner-light.png">
+</picture>
+
 # Secnd
 
 We're a research lab building models that decide or ask for help.
