@@ -1,4 +1,4 @@
-<img alt="Secnd butterfly mark made of text characters" src="https://raw.githubusercontent.com/Secnd-AI/.github/main/profile/banner.png">
+<img width="1060" height="1484" alt="ASCII Butterfly Logo on Purple" src="https://github.com/user-attachments/assets/3e62dfc3-c295-409d-a016-271ee2f06bcf" />
 
 # Secnd
 
